@@ -441,5 +441,5 @@ cd burger-queen
 
 ### METODO DE ACCESO
 
-*email: shinnytinystar@hotmail.com
-*password: abcdef
+* email: shinnytinystar@hotmail.com
+* password: abcdef
