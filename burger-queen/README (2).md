@@ -438,3 +438,8 @@ cd burger-queen
   íconos, ...) en iOS y Android.
 * [ ] Uso fácil en pantallas táctiles (touch screens).
 * [ ] Estado actual del pedido siempre visible mientras tomamos un pedido.
+
+### METODO DE ACCESO
+
+*email: shinnytinystar@hotmail.com
+*password: abcdef
