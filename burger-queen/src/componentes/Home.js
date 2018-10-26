@@ -1,26 +1,35 @@
 import React, {Component} from 'react';
 import fire from '../config/firebase';
+import Header from './Header';
+import Logout from './Logout';
+import '../css/Home.css';
+import Menu from './Menu';
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-        this.logout = this.logout.bind(this);
-    }
 
-
-    logout() {
-        fire.auth().signOut();
-    }
         render() {
             return (
-                < div >
-                    <h1> Bienvenido a Burger Queen
-                    </h1>
-                    <button onClick={ this.logout } > Cerrar Sesión 
-                    </button>
-                </div>);
+                <div className="Home container">
+                    <Header
+                        titutlo='Bienvenido a Burger Queen'
+                    />
+                    <Logout />
+                 <div className="contenido-principal contenido">
+                    <div className="row">
+                        <div className="one-half colum">
+                          <Menu />
 
-    }
+                        </div>
+                        <div className="one-half colum">
+
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            
+            );
+
+        }
 
 }
 
