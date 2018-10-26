@@ -56,7 +56,7 @@ class Login extends Component {
             <div className = "col-md-6" >
                 <form onSubmit={this.login}>
                     <div class = "form-group">
-
+                    <h1>Burger Queen</h1>
                     <img src={Logo} className='logo' alt='logo burger' />
                         
                         <label for = "exampleInputEmail1" > Correo 
