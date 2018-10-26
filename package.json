@@ -2,7 +2,7 @@
   "name": "burger-queen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://carisavi21.github.io/cdmx-2018-06-bc-core-am-burger-queen/burger-queen/",
+  "homepage": "https://carisavi21.github.io/cdmx-2018-06-bc-core-am-burger-queen/",
   "dependencies": {
     "firebase": "^5.5.1",
     "react-bootstrap": "^0.32.4",
